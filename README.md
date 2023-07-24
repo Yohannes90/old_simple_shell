@@ -1,10 +1,14 @@
 # Simple Shell
 ## Description
     - a UNIX command line interpreter
+    - Alx team project
 
 # Compilation
     - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
+# Team members
+    - Yohannes Mekonnen
+    - Marwane Madini
 # Testing
     - this shell works in interactive mode:
         $ ./hsh
