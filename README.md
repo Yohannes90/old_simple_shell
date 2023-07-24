@@ -1,19 +1,19 @@
-#Simple Shell
-##Description
-    -a UNIX command line interpreter
+# Simple Shell
+## Description
+    - a UNIX command line interpreter
 
-#Compilation
-    -gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+# Compilation
+    - gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
-#Testing
-    -this shell works in interactive mode:
+# Testing
+    - this shell works in interactive mode:
         $ ./hsh
         ($) /bin/ls
         hsh main.c shell.c
         ($)
         ($) exit
         $
-    -also in non-interactive mode:
+    - also in non-interactive mode:
         $ echo "/bin/ls" | ./hsh
         hsh main.c shell.c test_ls_2
         $
@@ -24,7 +24,7 @@
         hsh main.c shell.c test_ls_2
         $
 
-#File and function content included in this project
+# File and function content included in this project
     ========== builtins1.c ==========
     sh_env
     sh_cd
@@ -49,6 +49,6 @@
     ========== split_line.c ==========
     split_line
 
-#Reference
-    -https://medium.com/@santiagobedoa/coding-a-shell-using-c-1ea939f10e7e
-    -https://brennan.io/2015/01/16/write-a-shell-in-c/
+# Reference
+- https://medium.com/@santiagobedoa/coding-a-shell-using-c-1ea939f10e7e
+- https://brennan.io/2015/01/16/write-a-shell-in-c/
